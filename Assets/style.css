@@ -1,0 +1,119 @@
+h2{
+    background-color: rgb(46, 46, 88);
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#search-btn{
+    
+    width:210px;
+   
+}
+
+.main{
+    display: flex;
+    
+}
+.forecast{
+    display: flex;
+    flex-direction: column;
+}
+.city{
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 30px;
+    
+
+}
+.buttons{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 200px;
+    margin-left:10px;
+    margin-bottom: 15px;
+    
+    border: 2px solid black;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.day-1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 68);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 18px;
+
+}
+.day-2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 68);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 18px;
+}
+.day-3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 68);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 18px;
+
+}
+.day-4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 68);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 18px;
+
+}
+.day-5{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(58, 58, 68);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    font-size: 18px;
+
+}
