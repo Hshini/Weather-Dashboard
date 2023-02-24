@@ -56,6 +56,12 @@ function getWeather(cityname) {
 
       // //   document.getElementById("forcastList").appendChild(cardEl)
       // }
+
+      displayCity.textContent=city
+      temp.textContent="Temp:" + data.list[0].main.temp;
+      wind.textContent="Wind:" + data.list[0].wind.speed;
+      humidity.textContent="Humdity:" + data.list[0].main.humidity;
+
       //Day 1 forecast
       firstDay.textContent=data.list[0].dt_txt
       day1Tem.textContent="Temp:" + data.list[0].main.temp;
