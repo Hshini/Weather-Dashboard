@@ -21,9 +21,9 @@
                      <input type="text" id="search-area" class="form-control" placeholder="Search" aria-label="search" aria-describedby="basic-addon1">
                  </div>
                  <button type="submit"  id="search-btn" class="btn btn-primary" >Search</button>
-             </form>
-             
-             
+             </form>          
+             <div id="recentList">
+             </div>
         </section>
         <!-- Temperature Wind Humdity-->
         <section class="forecast">
@@ -33,40 +33,41 @@
                 <p id="wind"></p>
                 <p id="humidity"></p>
             </card>
+            <!-- 5 Day-Forecast -->
             <section class="5-day-forecast">
                 <card>
                     <h4>5-DAY FORECAST:</h4>
                 </card>
                 <section class="days">
-                    <card class="day-1">
-                        <h5></h5>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                    <card class="day">
+                        <p id="firstDay"></p>
+                        <p id="temp-day1">Temp:</p>
+                        <p id="wind-day1">Wind:</p>
+                        <p id="humidity-day1">Humidity:</p>
                     </card>
-                    <card class="day-2">
-                        <h5></h5>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                    <card class="day">
+                        <p id="secondDay"></p>
+                        <p id="temp-day2">Temp:</p>
+                        <p id="wind-day2">Wind:</p>
+                        <p id="humidity-day2">Humidity:</p>
                     </card>
-                    <card class="day-3">
-                        <h5></h5>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                    <card class="day">
+                        <p id="thirdDay"></p>
+                        <p id="temp-day3">Temp:</p>
+                        <p id="wind-day3">Wind:</p>
+                        <p id="humidity-day3">Humidity:</p>
                     </card>
-                    <card class="day-4">
-                        <h5></h5> 
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                    <card class="day">
+                        <p id="fourthDay"></p>
+                        <p id="temp-day4">Temp:</p>
+                        <p id="wind-day4">Wind:</p>
+                        <p id="humidity-day4">Humidity:</p>
                     </card>
-                    <card class="day-5">
-                        <h5></h5>
-                        <p>Temp:</p>
-                        <p>Wind:</p>
-                        <p>Humidity:</p>
+                    <card class="day">
+                        <p id="fifthDay"></p>
+                        <p id="temp-day5">Temp:</p>
+                        <p id="wind-day5">Wind:</p>
+                        <p id="humidity-day5">Humidity:</p>
                     </card>
                 </section>
             </section>
